@@ -4,7 +4,7 @@ services:
     image: mysql:latest
     restart: always
     volumes:
-      - db_data1:/var/lib/mysql
+      - db_data2:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: password321
       MYSQL_DATABASE: wordpress
