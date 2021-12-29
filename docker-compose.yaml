@@ -25,4 +25,6 @@ services:
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: password321
       WORDPRESS_DB_NAME: wordpress
-
+volumes:
+  db_data1: {}
+  wp_data: {}
